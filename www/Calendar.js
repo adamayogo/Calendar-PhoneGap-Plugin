@@ -48,7 +48,7 @@ Calendar.prototype.getCalendarOptions = function () {
   return {
     firstReminderMinutes: 60,
     secondReminderMinutes: null,
-    recurrence: null, // options are: 'daily', 'weekly', 'monthly', 'yearly'
+    recurrence: null, //Takes a full recurrence rule String (Android only; spec defined here: http://tools.ietf.org/html/rfc5545#section-3.8.5.3 )
     recurrenceEndDate: null,
     calendarName: null
   };

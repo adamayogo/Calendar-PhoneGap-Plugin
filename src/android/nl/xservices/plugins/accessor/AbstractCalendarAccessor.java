@@ -463,12 +463,7 @@ public abstract class AbstractCalendarAccessor {
       values.put(Events.EVENT_LOCATION, location);
 
       if (recurrence != null) {
-        if (recurrenceEndTime == null) {
-          values.put(Events.RRULE, "FREQ=" + recurrence.toUpperCase());
-        } else {
-          final SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
-          values.put(Events.RRULE, "FREQ=" + recurrence.toUpperCase() + ";UNTIL=" + sdf.format(new Date(recurrenceEndTime)));
-        }
+        values.put(Events.RRULE, recurrence);
       }
 
       Uri uri = cr.insert(eventsUri, values);
