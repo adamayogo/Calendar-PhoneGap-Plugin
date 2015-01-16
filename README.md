@@ -1,6 +1,6 @@
 # PhoneGap Calendar plugin 
 
-for iOS and Android, by [Eddy Verbruggen](http://www.x-services.nl)
+for iOS and Android, originally created by [Eddy Verbruggen](http://www.x-services.nl)
 
 <table width="100%">
   <tr>
@@ -9,21 +9,23 @@ for iOS and Android, by [Eddy Verbruggen](http://www.x-services.nl)
   </tr>
 </table>
 
-1. [Description](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#1-description)
-2. [Installation](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#2-installation)
-	2. [Automatically (CLI / Plugman)](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#automatically-cli--plugman)
-	2. [Manually](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#manually)
-	2. [PhoneGap Build](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#phonegap-build)
-3. [Usage](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#3-usage)
-4. [Credits](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#4-credits)
-5. [License](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin#5-license)
+1. [Description](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#1-description)
+2. [Installation](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#2-installation)
+	2. [Automatically (CLI / Plugman)](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#automatically-cli--plugman)
+	2. [Manually](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#manually)
+	2. [PhoneGap Build](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#phonegap-build)
+3. [Usage](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#3-usage)
+4. [Credits](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#4-credits)
+5. [License](https://github.com/adamayogo/Calendar-PhoneGap-Plugin#5-license)
 
 ## 1. Description
 
-This plugin allows you to add events to the Calendar of the mobile device.
+This plugin allows you to add events to the Calendar of the mobile device. 
+
+This fork was made to add support for extended recurrence rules, as defined [here](tools.ietf.org/html/rfc5545#section-3.8.5.3).
 
 * Works with PhoneGap >= 3.0.
-* For PhoneGap 2.x, see [the pre-3.0 branch](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin/tree/pre-3.0).
+* For PhoneGap 2.x, see [the pre-3.0 branch](https://github.com/adamayogo/Calendar-PhoneGap-Plugin/tree/pre-3.0).
 * Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman).
 * [Officially supported by PhoneGap Build](https://build.phonegap.com/plugins).
 
@@ -42,11 +44,11 @@ This plugin allows you to add events to the Calendar of the mobile device.
 Calendar is compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman) and ready for the [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI:
 
 ```
-$ phonegap local plugin add https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git
+$ phonegap local plugin add https://github.com/adamayogo/Calendar-PhoneGap-Plugin.git
 ```
 or
 ```
-$ cordova plugin add https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git
+$ cordova plugin add https://github.com/adamayogo/Calendar-PhoneGap-Plugin.git
 ```
 and run this command afterwards:
 ```
