@@ -22,7 +22,7 @@ for iOS and Android, originally created by [Eddy Verbruggen](http://www.x-servic
 
 This plugin allows you to add events to the Calendar of the mobile device. 
 
-This fork was made to add support for extended recurrence rules, as defined [here](tools.ietf.org/html/rfc5545#section-3.8.5.3).
+This fork was made to add support for extended recurrence rules, as defined [here](http://tools.ietf.org/html/rfc5545#section-3.8.5.3).
 
 * Works with PhoneGap >= 3.0.
 * For PhoneGap 2.x, see [the pre-3.0 branch](https://github.com/adamayogo/Calendar-PhoneGap-Plugin/tree/pre-3.0).
